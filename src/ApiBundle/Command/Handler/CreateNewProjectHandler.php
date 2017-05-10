@@ -1,11 +1,11 @@
 <?php
 
-namespace AuditorBundle\Command\Handler;
+namespace ApiBundle\Command\Handler;
 
-use AuditorBundle\Command\CreateNewProjectCommand;
-use AuditorBundle\Entity\ProjectEntity;
-use AuditorBundle\Event\CreatedNewProjectEvent;
-use AuditorBundle\Repository\ProjectRepositoryInterface;
+use ApiBundle\Command\CreateNewProjectCommand;
+use ApiBundle\Entity\ProjectEntity;
+use ApiBundle\Event\CreatedNewProjectEvent;
+use ApiBundle\Repository\ProjectRepositoryInterface;
 use CqrsBundle\Commanding\CommandHandlerInterface;
 use CqrsBundle\Eventing\EventBusInterface;
 

@@ -3,7 +3,7 @@
 namespace AppBundle\Query;
 
 use AppBundle\Query\Dto\ProjectDetailsDto;
-use AuditorBundle\Exception\ProjectDoesNotExistException;
+use ApiBundle\Exception\ProjectDoesNotExistException;
 use CqrsBundle\Querying\QueryInterface;
 use Doctrine\DBAL\Connection as Dbal;
 

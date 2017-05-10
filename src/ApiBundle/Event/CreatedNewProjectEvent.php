@@ -1,6 +1,6 @@
 <?php
 
-namespace AuditorBundle\Event;
+namespace ApiBundle\Event;
 
 use CqrsBundle\Eventing\EventInterface;
 use Symfony\Component\EventDispatcher\Event;

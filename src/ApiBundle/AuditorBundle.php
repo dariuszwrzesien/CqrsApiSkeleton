@@ -1,9 +1,9 @@
 <?php
 
-namespace AuditorBundle;
+namespace ApiBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class AuditorBundle extends Bundle
+class ApiBundle extends Bundle
 {
 }

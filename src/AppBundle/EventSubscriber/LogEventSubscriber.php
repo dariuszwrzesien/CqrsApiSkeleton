@@ -2,7 +2,7 @@
 
 namespace AppBundle\EventSubscriber;
 
-use AuditorBundle\Event\CreatedNewProjectEvent;
+use ApiBundle\Event\CreatedNewProjectEvent;
 use CqrsBundle\Eventing\EventInterface;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 

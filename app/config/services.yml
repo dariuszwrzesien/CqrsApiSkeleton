@@ -18,7 +18,7 @@ services:
     arguments: ["@app.command_handler_resolver", "@app.event_bus"]
 
   app.command_handler.create_new_project:
-    class: AuditorBundle\Command\Handler\CreateNewProjectHandler
+    class: ApiBundle\Command\Handler\CreateNewProjectHandler
     arguments: ["@app.event_bus", "@app.repository.project"]
 
   app.repository.project:

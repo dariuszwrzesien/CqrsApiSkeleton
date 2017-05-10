@@ -1,6 +1,6 @@
 <?php
 
-namespace AuditorBundle\Exception;
+namespace ApiBundle\Exception;
 
 class ProjectDoesNotExistException extends \Exception
 {

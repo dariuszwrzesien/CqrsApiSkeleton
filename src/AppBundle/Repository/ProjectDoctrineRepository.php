@@ -2,8 +2,8 @@
 
 namespace AppBundle\Repository;
 
-use AuditorBundle\Entity\ProjectEntity;
-use AuditorBundle\Repository\ProjectRepositoryInterface;
+use ApiBundle\Entity\ProjectEntity;
+use ApiBundle\Repository\ProjectRepositoryInterface;
 use Doctrine\ORM\EntityManager;
 
 class ProjectDoctrineRepository implements ProjectRepositoryInterface

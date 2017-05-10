@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\Unit\AuditorBundle;
+namespace Tests\Unit\ApiBundle;
 
-use AuditorBundle\Command\CreateNewProjectCommand;
-use AuditorBundle\Command\Handler\CreateNewProjectHandler;
-use AuditorBundle\Event\CreatedNewProjectEvent;
+use ApiBundle\Command\CreateNewProjectCommand;
+use ApiBundle\Command\Handler\CreateNewProjectHandler;
+use ApiBundle\Event\CreatedNewProjectEvent;
 use PHPUnit\Framework\TestCase;
 use Tests\Common\Mock\EventBusMock;
 use Tests\Common\Mock\ProjectInMemoryRepository;

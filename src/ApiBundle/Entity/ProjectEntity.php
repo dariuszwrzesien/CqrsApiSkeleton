@@ -1,6 +1,6 @@
 <?php
 
-namespace AuditorBundle\Entity;
+namespace ApiBundle\Entity;
 
 class ProjectEntity
 {

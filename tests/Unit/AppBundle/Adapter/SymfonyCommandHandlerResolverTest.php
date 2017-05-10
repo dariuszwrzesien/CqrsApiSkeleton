@@ -2,7 +2,7 @@
 
 namespace Tests\Unit\AppBundle\Adapter;
 
-use AuditorBundle\Command\CreateNewProjectCommand;
+use ApiBundle\Command\CreateNewProjectCommand;
 use AppBundle\Adapter\SymfonyCommandHandlerResolver;
 use Tests\Common\Mock\CommandHandlerMock;
 use Tests\Common\Mock\ContainerMock;

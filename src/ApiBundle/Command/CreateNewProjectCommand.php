@@ -1,6 +1,6 @@
 <?php
 
-namespace AuditorBundle\Command;
+namespace ApiBundle\Command;
 
 use CqrsBundle\Commanding\CommandInterface;
 

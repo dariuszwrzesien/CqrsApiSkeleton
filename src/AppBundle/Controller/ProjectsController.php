@@ -4,7 +4,7 @@ namespace AppBundle\Controller;
 
 use AppBundle\Query\GetAllProjectsQuery;
 use AppBundle\Query\Util\PaginationUtil;
-use AuditorBundle\Command\CreateNewProjectCommand;
+use ApiBundle\Command\CreateNewProjectCommand;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Symfony\Component\HttpFoundation\JsonResponse;

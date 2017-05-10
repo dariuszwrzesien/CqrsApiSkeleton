@@ -2,8 +2,8 @@
 
 namespace Tests\Common\Mock;
 
-use AuditorBundle\Entity\ProjectEntity;
-use AuditorBundle\Repository\ProjectRepositoryInterface;
+use ApiBundle\Entity\ProjectEntity;
+use ApiBundle\Repository\ProjectRepositoryInterface;
 
 class ProjectInMemoryRepository implements ProjectRepositoryInterface
 {
