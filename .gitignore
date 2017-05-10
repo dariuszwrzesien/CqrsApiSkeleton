@@ -39,3 +39,6 @@
 
 #PhpStorm
 .idea/
+
+#vandor
+vendor/
